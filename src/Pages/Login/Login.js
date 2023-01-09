@@ -7,22 +7,41 @@ const Login = () => {
       <div className="flex">
         <div className="w-6/12 min-h-screen flex justify-center items-center bg-primary">
           <div>
-            <div className="card glass">
+            <div className="card glass min-w-[55vh] min-h-[70vh]">
               <div className="card-body relative">
-                <h2 className="text-3xl font-semibold text-white capitalize">
-                  Be the member of Hunt Deers
-                </h2>
-                <h2 className="text-3xl font-semibold text-white capitalize">
-                  Find your dream job
+                <h2 className="text-4xl font-bold text-white capitalize">
+                  Very Good Works are <br /> Waiting for you <br /> Login Now!
                 </h2>
               </div>
               <figure className="flex justify-end">
                 <img
                   src="https://i.ibb.co/NKPbTMD/pexels-kampus-production-6829577-removebg-preview.png"
                   alt=""
-                  className="px-20"
+                  className="absolute right-[-60px] bottom-0 w-9/12"
                 />
               </figure>
+              <div
+                className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
+               bottom-28 left-[-30px]"
+              >
+                <img
+                  src="https://i.ibb.co/xYL08pv/handshake.png"
+                  className="w-12"
+                  alt=""
+                />
+              </div>
+              <div className="image">
+                <div
+                  className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
+              top-28 right-[-30px] "
+                >
+                  <img
+                    src="https://i.ibb.co/CKWhcS0/peace.png"
+                    className="w-12"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -84,7 +103,10 @@ const Login = () => {
             </div>
             <div className="text-center mt-10">
               <p className="">
-                Don't have an account yet? <Link>Sign Up</Link>
+                Don't have an account yet?{" "}
+                <Link className="hover:underline text-blue-500" to="/signup">
+                  Sign Up
+                </Link>
               </p>
             </div>
           </div>
