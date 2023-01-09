@@ -10,7 +10,7 @@ const Signup = () => {
             <div className="card glass min-w-[55vh] min-h-[70vh]">
               <div className="card-body relative">
                 <h2 className="text-4xl font-bold text-white capitalize">
-                  Very Good Works are <br /> Waiting for you <br /> Login Now!
+                  Your Dream Jobs is <br /> Waiting for you <br /> Sign Up Now!
                 </h2>
               </div>
               <figure className="flex justify-end">
@@ -117,7 +117,7 @@ const Signup = () => {
             </div>
             <div className="text-center mt-10">
               <p className="">
-                Already have an account?
+                Already have an account?{" "}
                 <Link className="hover:underline text-blue-500" to="/">
                   Log In
                 </Link>
