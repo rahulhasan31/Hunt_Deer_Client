@@ -29,7 +29,7 @@ const Signup = () => {
               <div className="bg-gray-400 w-[2px] h-16 absolute bottom-10 left-32 rotate-90"></div>
               <div
                 className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
-               bottom-28 left-[-30px] image"
+               bottom-28 left-[-30px] animation"
               >
                 <img
                   src="https://i.ibb.co/xYL08pv/handshake.png"
@@ -40,7 +40,7 @@ const Signup = () => {
               <div className="">
                 <div
                   className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-              top-28 right-[-30px] image"
+              top-28 right-[-30px] animation"
                 >
                   <img
                     src="https://i.ibb.co/CKWhcS0/peace.png"
