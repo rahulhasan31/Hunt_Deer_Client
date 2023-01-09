@@ -54,10 +54,10 @@ const Signup = () => {
                 </div>
               </div>
               <div className="my-5">
-                <h2 className="text-3xl font-medium mb-2">Hello Again!</h2>
+                <h2 className="text-3xl font-medium mb-2">Sign Up</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Architecto maiores, dolorem rerum quo consectetur a
+                  Sign up here for as a job seeker or a employeer and find your
+                  dream job or the best employeer for your team
                 </p>
               </div>
             </div>
@@ -80,18 +80,32 @@ const Signup = () => {
                   className="p-2 border border-gray-400 rounded-md focus:outline-none w-full text-xl"
                 />
               </div>
-            </div>
-            <div className="flex items-center my-3 justify-between">
-              <div className="form-control">
-                <label className="label cursor-pointer">
-                  <input type="checkbox" className="checkbox mr-2" />
-                  <span className="label-text">Remember me</span>
+              <div className="form-control w-full">
+                <label className="label">
+                  <span className="label-text">Confirm Password</span>
                 </label>
+                <input
+                  type="password"
+                  className="p-2 border border-gray-400 rounded-md focus:outline-none w-full text-xl"
+                />
               </div>
-              <Link to="/">Reset Password</Link>
+              <div className="form-control w-full">
+                <label className="label">
+                  <span className="label-text">Signing up As</span>
+                </label>
+                <select className="select select-bordered">
+                  <option disabled selected>
+                    Select Your Role
+                  </option>
+                  <option>Employeer</option>
+                  <option>Job Seeker</option>
+                </select>
+              </div>
             </div>
             <div>
-              <button className="btn btn-block btn-primary">Login</button>
+              <button className="btn btn-block btn-primary mt-5">
+                Sign Up
+              </button>
               <button className="btn btn-block btn-outline mt-5">
                 <img
                   src="https://i.ibb.co/D78mNTT/google.png"
@@ -103,9 +117,9 @@ const Signup = () => {
             </div>
             <div className="text-center mt-10">
               <p className="">
-                Don't have an account yet?{" "}
-                <Link className="hover:underline text-blue-500" to="/signup">
-                  Sign Up
+                Already have an account?
+                <Link className="hover:underline text-blue-500" to="/">
+                  Log In
                 </Link>
               </p>
             </div>
