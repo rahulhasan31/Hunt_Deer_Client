@@ -28,23 +28,23 @@ const Signup = () => {
               <div className="bg-gray-400 w-[2px] h-36 absolute top-60 left-10"></div>
               <div className="bg-gray-400 w-[2px] h-16 absolute bottom-10 left-32 rotate-90"></div>
               <div
-                className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
-               bottom-28 left-[-30px] animation"
+                className="bg-white w-24 h-24 rounded-full flex items-center justify-center absolute
+               bottom-28 left-[-43px] animation"
               >
                 <img
                   src="https://i.ibb.co/xYL08pv/handshake.png"
-                  className="w-12"
+                  className="w-16"
                   alt=""
                 />
               </div>
               <div className="">
                 <div
-                  className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-              top-28 right-[-30px] animation"
+                  className="bg-white w-24 h-24 rounded-full flex items-center justify-center absolute 
+              top-28 right-[-43px] animation"
                 >
                   <img
                     src="https://i.ibb.co/CKWhcS0/peace.png"
-                    className="w-12"
+                    className="w-16"
                     alt=""
                   />
                 </div>
