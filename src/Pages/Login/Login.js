@@ -6,7 +6,14 @@ const Login = () => {
   return (
     <div>
       <div className="flex">
-        <div className="w-6/12 min-h-screen flex justify-center items-center bg-primary">
+        <div
+          className="w-6/12 min-h-screen flex justify-center items-center bg-primary relative 
+        overflow-hidden"
+        >
+          <div className="bg-blue-400 w-40 h-40 rounded-full absolute top-24 left-40 animation3"></div>
+          <div className="bg-red-400 w-40 h-40 rounded-full absolute bottom-24 right-40 animation2"></div>
+          <div className="bg-[#2052BC] w-40 h-40 rounded-full absolute top-[-38px] right-[-20px]"></div>
+          <div className="bg-[#2052BC] w-40 h-40 rounded-full absolute bottom-[-45px] left-[-40px]"></div>
           <div>
             <div className="card glass min-w-[55vh] min-h-[70vh]">
               <div className="card-body relative">
@@ -21,9 +28,11 @@ const Login = () => {
                   className="absolute right-[-60px] bottom-0 w-9/12"
                 />
               </figure>
+              <div className="bg-gray-400 w-[2px] h-36 absolute top-60 left-10"></div>
+              <div className="bg-gray-400 w-[2px] h-16 absolute bottom-10 left-32 rotate-90"></div>
               <div
                 className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
-               bottom-28 left-[-30px] image"
+               bottom-28 left-[-30px] animation"
               >
                 <img
                   src="https://i.ibb.co/xYL08pv/handshake.png"
@@ -34,7 +43,7 @@ const Login = () => {
               <div className="">
                 <div
                   className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-               right-[-30px] top-32 image"
+               right-[-30px] top-32 animation"
                 >
                   <img
                     src="https://i.ibb.co/CKWhcS0/peace.png"
