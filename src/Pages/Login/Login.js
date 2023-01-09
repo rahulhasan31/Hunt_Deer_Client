@@ -20,6 +20,8 @@ const Login = () => {
                   className="absolute right-[-60px] bottom-0 w-9/12"
                 />
               </figure>
+              <div className="bg-gray-400 w-[2px] h-36 absolute top-60 left-10"></div>
+              <div className="bg-gray-400 w-[2px] h-16 absolute bottom-10 left-32 rotate-90"></div>
               <div
                 className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
                bottom-28 left-[-30px]"
