@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./SignUp.css";
 
 const Signup = () => {
   return (
@@ -22,7 +23,7 @@ const Signup = () => {
               </figure>
               <div
                 className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
-               bottom-28 left-[-30px]"
+               bottom-28 left-[-30px] image"
               >
                 <img
                   src="https://i.ibb.co/xYL08pv/handshake.png"
@@ -30,10 +31,10 @@ const Signup = () => {
                   alt=""
                 />
               </div>
-              <div className="image">
+              <div className="">
                 <div
                   className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-              top-28 right-[-30px] "
+              top-28 right-[-30px] image"
                 >
                   <img
                     src="https://i.ibb.co/CKWhcS0/peace.png"
