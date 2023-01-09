@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Login.css";
 
 const Login = () => {
   return (
@@ -10,7 +11,7 @@ const Login = () => {
             <div className="card glass min-w-[55vh] min-h-[70vh]">
               <div className="card-body relative">
                 <h2 className="text-4xl font-bold text-white capitalize">
-                  Very Good Works are <br /> Waiting for you <br /> Login Now!
+                  Your Dream Jobs is <br /> Waiting for you <br /> Login Now!
                 </h2>
               </div>
               <figure className="flex justify-end">
@@ -22,7 +23,7 @@ const Login = () => {
               </figure>
               <div
                 className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute
-               bottom-28 left-[-30px]"
+               bottom-28 left-[-30px] image"
               >
                 <img
                   src="https://i.ibb.co/xYL08pv/handshake.png"
@@ -30,10 +31,10 @@ const Login = () => {
                   alt=""
                 />
               </div>
-              <div className="image">
+              <div className="">
                 <div
                   className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-              top-28 right-[-30px] "
+               right-[-30px] top-32 image"
                 >
                   <img
                     src="https://i.ibb.co/CKWhcS0/peace.png"
@@ -54,10 +55,10 @@ const Login = () => {
                 </div>
               </div>
               <div className="my-5">
-                <h2 className="text-3xl font-medium mb-2">Hello Again!</h2>
+                <h2 className="text-3xl font-medium mb-2">Log In</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Architecto maiores, dolorem rerum quo consectetur a
+                  Login here for as a job seeker or a employeer and find your
+                  dream job or the best employeer for your team
                 </p>
               </div>
             </div>
@@ -88,7 +89,9 @@ const Login = () => {
                   <span className="label-text">Remember me</span>
                 </label>
               </div>
-              <Link to="/">Reset Password</Link>
+              <Link to="/" className="text-primary">
+                Reset Password
+              </Link>
             </div>
             <div>
               <button className="btn btn-block btn-primary">Login</button>
@@ -104,7 +107,7 @@ const Login = () => {
             <div className="text-center mt-10">
               <p className="">
                 Don't have an account yet?{" "}
-                <Link className="hover:underline text-blue-500" to="/signup">
+                <Link className="hover:underline text-primary" to="/signup">
                   Sign Up
                 </Link>
               </p>
