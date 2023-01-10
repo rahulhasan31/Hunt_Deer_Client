@@ -6,6 +6,7 @@ import {
   IoPersonCircleOutline,
   IoSearchOutline,
 } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -39,7 +40,7 @@ const Navbar = () => {
               placeholder="Location"
             />
           </div>
-          <div className="w-12 bg-green-500 h-12 flex justify-center items-center rounded-sm">
+          <div className="w-12 bg-primary h-12 flex justify-center items-center rounded-sm">
             <button>
               <IconContext.Provider value={{ size: 25, color: "white" }}>
                 <IoSearchOutline />
@@ -53,10 +54,25 @@ const Navbar = () => {
               <IoNotificationsOutline />
             </IconContext.Provider>
           </div>
-          <div>
-            <IconContext.Provider value={{ size: 40, color: "gray" }}>
-              <IoPersonCircleOutline />
-            </IconContext.Provider>
+          <div className="dropdown dropdown-end">
+            <label tabIndex={0} className="m-1">
+              <IconContext.Provider value={{ size: 40, color: "gray" }}>
+                <IoPersonCircleOutline />
+              </IconContext.Provider>
+            </label>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <Link to="/login">
+                <button className="btn btn-block">Log In</button>
+              </Link>
+              <Link to="/signup">
+                <button className="btn btn-block btn-outline mt-3">
+                  Sign Up
+                </button>
+              </Link>
+            </ul>
           </div>
         </aside>
       </header>

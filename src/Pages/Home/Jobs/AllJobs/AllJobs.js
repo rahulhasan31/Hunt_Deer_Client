@@ -2,8 +2,8 @@ import React from "react";
 
 const AllJobs = () => {
   return (
-    <div>
-      <div className="mt-10">
+    <div className="">
+      <div className="mt-10 overflow-y-auto max-h-screen">
         {/* one card start */}
         <div className="border-2 rounded-lg hover:border-gray-300 mb-4 shadow-xl">
           <div className="flex p-5">
@@ -15,7 +15,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -37,7 +39,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -59,7 +63,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -81,7 +87,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -103,7 +111,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -125,7 +135,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -147,7 +159,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
@@ -169,7 +183,9 @@ const AllJobs = () => {
               />
             </div>
             <div className="ml-2">
-              <h2 className="card-title underline">Full Stack Developer</h2>
+              <h2 className="card-title hover:underline">
+                Full Stack Developer
+              </h2>
               <p>
                 <i>Company Name</i>
               </p>
